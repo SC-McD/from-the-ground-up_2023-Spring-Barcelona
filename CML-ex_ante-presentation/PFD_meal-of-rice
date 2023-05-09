@@ -1,0 +1,11 @@
+digraph {
+	graph [pad=0.1 rankdir=LR]
+	water [label=water shape=box]
+	water [label=Water fillcolor=skyblue shape=ellipse style=filled]
+	rice [label=rice shape=box]
+	rice [label=Rice fillcolor=orange fontcolor=black shape=box style=filled]
+	meal [label=meal shape=box]
+	meal [label="Delicious meal" fillcolor=forestgreen fontcolor=white shape=box style=filled]
+	water -> rice [label="6 m³" penwidth=2.549489742783178]
+	rice -> meal [label="1 kg" penwidth=1.1]
+}
